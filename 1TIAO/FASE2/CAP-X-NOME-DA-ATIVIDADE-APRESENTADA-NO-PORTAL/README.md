@@ -15,10 +15,10 @@
 ## Nome do grupo
 
 ## 👨‍🎓 Integrantes: 
-- <a href="Link do perfil no LinkedIn ou GitHub">Raila Cruz</a>
-- <a href="Link do perfil no LinkedIn ou GitHub"> Gabriela Pacheco</a>
-- <a href="Link do perfil no LinkedIn ou GitHub">Leonardo Kenji</a> 
-- <a href="Link do perfil no LinkedIn ou GitHub">Gabriel Pietrobon 4</a> 
+- <a href="Link do perfil no LinkedIn ou GitHub">Raila Cruz - RM576112</a>
+- <a href="Link do perfil no LinkedIn ou GitHub"> Gabriela Pacheco - RM575120 </a>
+- <a href="Link do perfil no LinkedIn ou GitHub">Leonardo Kenji - RM575829 </a> 
+- <a href="Link do perfil no LinkedIn ou GitHub">Gabriel Pietrobon - RM574967 </a> 
 
 
 ## 👩‍🏫 Professores:
