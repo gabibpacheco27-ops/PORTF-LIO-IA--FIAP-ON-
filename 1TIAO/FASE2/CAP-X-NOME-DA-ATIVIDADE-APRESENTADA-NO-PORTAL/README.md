@@ -172,7 +172,7 @@ Abaixo encontra-se a descrição da organização da raiz do projeto e a finalid
 
 
 
-* **[Nome do Link (ex: Vídeo de Entrega no YouTube)]**(http://url-aqui) - Breve descrição.
+* **[Nome do Link ( Vídeo de Entrega no YouTube)]** https://youtu.be/uM7GDANYd3g e https://youtu.be/-9fMpF_rI-w - Os vídeos apresentam os testes dos códigos em R.
 
 
 
