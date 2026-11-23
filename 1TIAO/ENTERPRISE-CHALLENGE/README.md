@@ -15,64 +15,80 @@
 ## Nome do grupo
 
 ## 👨‍🎓 Integrantes: 
-- <a href="Link do perfil no LinkedIn ou GitHub">Nome do integrante 1</a>
-- <a href="Link do perfil no LinkedIn ou GitHub">Nome do integrante 2</a>
-- <a href="Link do perfil no LinkedIn ou GitHub">Nome do integrante 3</a> 
-- <a href="Link do perfil no LinkedIn ou GitHub">Nome do integrante 4</a> 
-- <a href="Link do perfil no LinkedIn ou GitHub">Nome do integrante 5</a>
+- <a href="Link do perfil no LinkedIn ou GitHub">Gabriela Pacheco - RM575120</a>
+- <a href="Link do perfil no LinkedIn ou GitHub">Raila Cruz - RM576112</a>
+- <a href="Link do perfil no LinkedIn ou GitHub">Leonardo Kenji - RM575829</a> 
+- <a href="Link do perfil no LinkedIn ou GitHub">Gabriel Pietrobon - RM574967</a> 
+
 
 ## 👩‍🏫 Professores:
 
 ### Tutor(a)
-- <a href="Link do perfil no LinkedIn">Nome do Tutor</a>
+- <a href="Link do perfil no LinkedIn">Sabrina Otoni</a>
   
 ### Coordenador(a)
 - <a href="https://www.linkedin.com/in/andregodoichiovato/">André Godoi Chiovato</a>
 
 ## 📜 Descrição
 
-*Descreva aqui seu projeto em detalhes de forma estruturada e organizada*
+*Este projeto analisa custos de uma frota com dados simulados de combustível, manutenção, pedágios, multas e impostos. O programa integra os dados, compara veículos de perfis semelhantes e identifica quais apresentam custos acima do esperado. Também compara o diagnóstico por regras com o resultado de um modelo de Machine Learning e inclui uma simulação de telemetria com ESP32 no Wokwi.*
 
 ## 📁 Estrutura de pastas 
+TODOS OS ARQUIVOS DO PROJETO SE ENCONTRAM NA PASTA ZIP
+| CONTEÚDO DENTRO DO ZIP |
+|---|---|
+| `main.py` e `requirements.txt` | Programa principal e dependências |
+| `src/` | Código de tratamento dos dados, comparação de custos, diagnóstico e modelo |
+| `data/` | Dados simulados de entrada, telemetria e arquivos processados |
+| `outputs/` e `assets/` | Tabelas de resultados, gráficos e diagrama do projeto |
+| `wokwi/` e `telemetria/` | Código e circuito do ESP32 e scripts para gerar ou importar leituras |
+| `tests/` | Testes das regras de diagnóstico |
+| `docs/` e `notebooks/` | Documentação, evidências da simulação e notebook de análise |
 
-*‼️ OBSERVAÇÃO DO TUTOR -- favor remover antes de subir o trabalho -- não há a obrigação de usar todas as pasta propostas, use apenas o que fizer SENTIDO para a entrega. Também está permitido criar mais pastas conforme necessidade visando a melhor organização do projeto. ‼️*
 
-Abaixo encontra-se a descrição da organização da raiz do projeto e a finalidade de cada diretório e arquivo:
-
-* **`data/`** Armazena todas as bases de dados utilizadas no projeto, incluindo arquivos estruturados (como CSV, Excel, JSON), bases de dados sintéticas e outros formatos brutos ou processados.
-
-* **`docs/`** Centraliza a documentação técnica e de negócio do projeto.
-
-* **`notebooks/`** Destinado a cadernos interativos (como *Jupyter Notebooks* ou *Google Colab*) utilizados para análise exploratória de dados, experimentação de algoritmos, prototipagem de modelos, etc.
-
-* **`src/`** Contém todo o código-fonte desenvolvido para o projeto. Dependendo do âmbito da atividade, pode incluir arquivos como: scripts (Python, R, JS), ficheiros web (HTML), firmware para hardware (ESP32/Arduino), além de APIs, microsserviços e ficheiros de modelos e inferências.
-
-* **`README.md`** Este ficheiro. Funciona como o guia principal de introdução, configuração e contextualização do projeto.
-
-## 📎 Links e Observações
 
 ### 🔗 Links do Projeto
 
-*Substitua ou duplique a estrutura abaixo para cada link relevante do projeto:*
+* **[Nome do Link (Video demonstração do funcionamento do projeto da sprint 2)]**(https://youtu.be/hlGBrp3aKME) 
 
-* **[Nome do Link (ex: Vídeo de Entrega no YouTube)]**(http://url-aqui) - Breve descrição.
 
-### 🧠 Decisões Técnicas
-
-*Utilize este espaço para registar as principais escolhas tecnológicas do projeto e as suas justificações (ex: escolha de frameworks, banco de dados, arquitetura, etc.):*
-
-> Escreva aqui as observações e justificações técnicas do projeto...
 
 ### 📢 Observações Gerais
 
-*Indique obrigatoriamente no campo abaixo a decisão da equipe quanto à participação no festival FIAP NEXT:*
 
-* **Participação na Competição:** [ ] Sim, aceitamos participar / [ ] Não vamos participar.
+* **Participação na Competição:** [x] Sim, aceitamos participar / [ ] Não vamos participar.
 * *Outras observações gerais (opcional):* Escreva aqui...
 
 ## 🔧 Como executar o código
 
-*Acrescentar as informações necessárias sobre pré-requisitos (IDEs, serviços, bibliotecas etc.) e instalação básica do projeto, descrevendo eventuais versões utilizadas. Colocar um passo a passo de como o leitor pode baixar o seu código e executá-lo a partir de sua máquina ou seu repositório.*
+*Você precisa ter o **Python 3.10 ou superior** instalado.
+
+No macOS ou Linux, crie e ative o ambiente virtual:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
+No Windows, usando o Prompt de Comando:
+
+```bat
+python -m venv .venv
+.venv\Scripts\activate
+```
+
+Depois, instale as dependências e execute o projeto:
+
+```bash
+python -m pip install -r requirements.txt
+python main.py
+```
+
+Para executar os quatro testes das regras de diagnóstico:
+
+```bash
+python -m unittest discover -s tests -p "teste_*.py" -v
+```.*
 
 ---
 
