@@ -49,7 +49,7 @@ TODOS OS ARQUIVOS DO PROJETO SE ENCONTRAM NA PASTA ZIP
 
 ### 🔗 Links do Projeto
 
-* **[Nome do Link (Video demonstração do funcionamento do projeto da sprint 2)]**(https://youtu.be/hlGBrp3aKME) 
+* **Video demonstração do funcionamento do projeto da sprint 2**(https://youtu.be/hlGBrp3aKME) 
 
 
 
